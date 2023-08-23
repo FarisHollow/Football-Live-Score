@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294949732515",
+    "project_id": "live-firebase-d8f1e",
+    "storage_bucket": "live-firebase-d8f1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294949732515:android:d72210ccd50940affaff16",
+        "android_client_info": {
+          "package_name": "com.example.football_live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294949732515-jhat4k6p5q83mkj3e8fb2o353b3ol67b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmTsLOv8vWCGYseEGvgnUW1NLV-5VSneM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294949732515-jhat4k6p5q83mkj3e8fb2o353b3ol67b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
