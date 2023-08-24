@@ -2,10 +2,12 @@ import 'dart:convert';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:football_live/homeScreen.dart';
+import 'package:football_live/match1screen.dart';
+import 'package:football_live/splash_screen.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 
-/// Let's an App that will show our basketball live score
+import 'home_screen.dart';
+
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,9 +21,9 @@ class BasketBallLiveScoreApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: SplashScreen(),
     );
   }
 }
